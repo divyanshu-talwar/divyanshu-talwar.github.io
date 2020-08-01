@@ -1,0 +1,101 @@
+/* Navigation Bar */
+
+.NAVBAR_HEADING {
+    padding-left: 25%;
+}
+
+.navbar-brand {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.85rem !important;
+}
+
+.NAVBAR_CONTENTS {
+    position: absolute;
+    right: 0;
+    padding-right: 25%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+.nav-item {
+    padding: 0 3%;
+}
+
+.navbar {
+    padding: 0.1% 0 !important;
+}
+
+/* publication section */
+
+.publications {
+    padding: 2% 25% 0%;
+}
+
+.heading {
+    font-family: 'Libre Baskerville', serif;
+    padding: 0 0 1.5%;
+}
+
+.data {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 1% 1%;
+}
+
+.list_icon {
+    padding: 1% 0 0 3%;
+    vertical-align: top;
+}
+
+.data a {
+    color: #212529;
+}
+
+.data a:hover {
+    color: #212529;
+    text-decoration: underline;
+}
+
+button {
+    margin: 1% 1% 0.5% 0 !important;
+}
+
+tr:nth-child(odd) {background-color: #f8f9fa;}
+
+/* Icons section */
+
+.icons_tray a {
+    text-decoration: none !important;
+}
+
+.icons_tray a:hover {
+    text-decoration: none !important;
+}
+
+.icons_tray {
+    padding: 0.5% 25% 0;
+    text-align: center;
+}
+
+.ICON {
+    color: #dadddf;
+    padding: 0.75% 1%;
+}
+
+.ICON:hover {
+    color: #5f6769;
+}
+
+/* 
+headings:
+font-family: 'Libre Baskerville', serif;
+body:
+font-family: 'Montserrat', sans-serif;
+*/
