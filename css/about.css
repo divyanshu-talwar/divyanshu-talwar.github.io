@@ -101,11 +101,11 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
 
 
 /* tablet width */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 991px) {
     /* navbar section */
     .total-navbar {
         padding: 0 12%;
-        /* background-color: #f8f9fa; */
+         /*background-color: #000000; */
     }
     
     /* about me section */
@@ -128,7 +128,7 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
 }
 
 /* phone width */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     /* navbar section */
     .total-navbar {
         padding: 1% 2%;
@@ -141,6 +141,9 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     }
     
     /* about me section */
+    .name_title{
+        text-align: center;
+    }
     .about_me {
         padding: 2% 2% 0;
     }
@@ -182,10 +185,3 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     font-family: 'Montserrat', sans-serif;
     font-size: 0.7rem;
 }
-
-/* 
-headings:
-font-family: 'Libre Baskerville', serif;
-body:
-font-family: 'Montserrat', sans-serif;
-*/
