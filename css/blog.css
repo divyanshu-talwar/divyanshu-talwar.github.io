@@ -39,6 +39,11 @@
     /* padding: 0.5%; */
 }
 
+.data {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
 .table-data {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
