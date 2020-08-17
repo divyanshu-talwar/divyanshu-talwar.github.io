@@ -108,7 +108,7 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
 }
 
 /* phone width */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 600px) {
     /* navbar section */
     .total-navbar {
         padding: 1% 2%;
