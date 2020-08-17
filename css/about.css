@@ -137,19 +137,19 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     
     .navbar-brand {
         font-family: 'Libre Baskerville', serif;
-        font-size: 1.5rem !important;
+        font-size: 2.5rem !important;
     }
     
     /* about me section */
     .name_title{
         text-align: center;
     }
-    .about_me {
+/*    .about_me {
         padding: 2% 2% 0;
-    }
+    }*/
     img {
-        height: 20%;
-        width: 20%;
+        height: 40%;
+        width: 40%;
         float: none;
         display: block;
         margin: 0 auto;
@@ -158,19 +158,23 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     .heading {
         font-family: 'Libre Baskerville', serif;
         padding: 0 0 1.5%;
-        font-size: 2rem;
+        font-size: 5rem;
     }
 
     .data {
         font-family: 'Montserrat', sans-serif;
-        font-size: 0.81rem;
+        font-size: 2.5rem;
     }
     
+    .news_data {
+        height: 800px;
+        overflow: auto;
+    }
     
     /* News section */
-    .news {
+/*    .news {
         padding: 0.5% 2% 0.5%;
-    }
+    }*/
     
     /* icons ssection */
     .icons_tray {
