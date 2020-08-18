@@ -89,73 +89,20 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
 }
 
 /* tablet width */
-@media screen and (max-width: 800px) {
-    /* navbar section */
-    .total-navbar {
-        padding: 0 12%;
-        /* background-color: #f8f9fa; */
-    }
-    
-    /* blog section */
-    .blog {
-        padding: 2% 12% 0;
-    }
-    /* icons ssection */
-    .icons_tray {
-        padding: 0.5% 25%;
-        text-align: center;
+@media screen and (max-width: 1100px) {
+    /* News section */
+    .table_data {
+        height: 100%;
+        overflow: auto;
     }
 }
 
 /* phone width */
-@media screen and (max-width: 600px) {
-    /* navbar section */
-    .total-navbar {
-        padding: 1% 2%;
-        /* background-color: #f8f9fa; */
-    }
-    
-    .navbar-brand {
-        font-family: 'Libre Baskerville', serif;
-        font-size: 1.5rem !important;
-    }
-    
-    /* blog section */
-
-    .blog {
-        padding: 2% 2% 0%;
-    }
-
-    .main-heading {
-        font-family: 'Libre Baskerville', serif;
-        padding: 0 0 1.5%;
-        margin: 0;
-        font-size: 2rem;
-    }
-
-    .heading {
-        font-family: 'Libre Baskerville', serif;
-        /* padding: 0.5%; */
-    }
-
-    .table-data {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 0.81rem;
-    }
-
-    .table-data {
-        height: 120px;
+@media screen and (max-width: 990px) {
+    /* about me section */  
+    .table_data {
+        height: 100%;
         overflow: auto;
-    }
-
-    td {
-        padding: 2%;
-    }
-
-    /* icons ssection */
-    .icons_tray {
-        padding: 0.5% 12%;
-        text-align: center;
     }
 }
 
@@ -165,10 +112,3 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     font-family: 'Montserrat', sans-serif;
     font-size: 0.7rem;
 }
-
-/* 
-headings:
-font-family: 'Libre Baskerville', serif;
-body:
-font-family: 'Montserrat', sans-serif;
-*/

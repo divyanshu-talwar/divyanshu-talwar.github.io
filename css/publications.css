@@ -102,62 +102,10 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     color: #5f6769;
 }
 
-/* tablet width */
-@media screen and (max-width: 800px) {
-    /* navbar section */
-    .total-navbar {
-        padding: 0 12%;
-        /* background-color: #f8f9fa; */
-    }
-    
-    /* about me section */
-    .publications {
-        padding: 2% 12% 0;
-    }
-    /* icons ssection */
-    .icons_tray {
-        padding: 0.5% 25%;
-        text-align: center;
-    }
-}
-
 /* phone width */
-@media screen and (max-width: 600px) {
-    /* navbar section */
-    .total-navbar {
-        padding: 1% 2%;
-        /* background-color: #f8f9fa; */
-    }
-    
-    .navbar-brand {
-        font-family: 'Libre Baskerville', serif;
-        font-size: 1.5rem !important;
-    }
-    
-    /* publication section */
-
-    .publications {
-        padding: 2% 2% 0%;
-    }
-
-    .heading {
-        font-family: 'Libre Baskerville', serif;
-        padding: 0 0 1.5%;
-        font-size: 2rem;
-    }
-
-    .data {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 0.81rem;
-    }
-    
-    td {
-        padding: 2%
-    }
-
-    /* icons ssection */
-    .icons_tray {
-        padding: 0.5% 12%;
+@media screen and (max-width: 990px) {  
+    /* heading */
+    .name_title{
         text-align: center;
     }
 }
