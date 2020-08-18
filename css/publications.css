@@ -71,7 +71,7 @@ td {
     text-decoration: underline;
 }
 
-button {
+.button {
     margin: 1% 0.5% 0.5% 0.5% !important;
     padding: 0.15% 0.75% !important;
 }
@@ -110,10 +110,6 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     }
     .publications {
         padding: 2% 4% 0%;
-    }
-    button {
-        margin: 1% 0.5% 0.5% 0.5% !important;
-        padding: 0.15% 0.75% !important;
     }
 }
 
