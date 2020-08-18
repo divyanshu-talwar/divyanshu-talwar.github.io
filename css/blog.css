@@ -100,16 +100,20 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
 /* phone width */
 @media screen and (max-width: 990px) {
     /* about me section */  
-    .table_data {
-        height: 100%;
-        overflow: auto;
+    .total-navbar {
+        padding: 0 2%;
+        background-color: #f8f9fa;
     }
     .blog {
         padding: 2% 4% 0;
     }
-    .total-navbar {
-        padding: 0 2%;
-        background-color: #f8f9fa;
+    .table_data {
+        height: 100%;
+        overflow: auto;
+    }
+    .icons_tray {
+        padding: 0 25% 1%;
+        text-align: center;
     }
     .footer{
         display: none;

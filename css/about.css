@@ -121,6 +121,10 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     .NAVBAR_HEADING {
         width: 0;
     }     
+    .total-navbar {
+        padding: 0 2%;
+        background-color: #f8f9fa;
+    }
     /* about me section */
     .name_title{
         text-align: center;
@@ -131,10 +135,6 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
         float: none;
         display: block;
         margin: 0 auto;
-   }
-    .news_data {
-        height: 100%;
-        overflow: auto;
     }
     .about_me {
         padding: 2% 4% 0;
@@ -142,9 +142,13 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     .news {
         padding: 0.5% 4% 0.5%;
     }
-    .total-navbar {
-        padding: 0 2%;
-        background-color: #f8f9fa;
+    .news_data {
+        height: 100%;
+        overflow: auto;
+    }
+    .icons_tray {
+        padding: 0 25% 1%;
+        text-align: center;
     }
     .footer{
         display: none;
