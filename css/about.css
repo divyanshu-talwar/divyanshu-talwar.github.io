@@ -142,6 +142,13 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     .news {
         padding: 0.5% 4% 0.5%;
     }
+    .total-navbar {
+        padding: 0 2%;
+        background-color: #f8f9fa;
+    }
+    .footer{
+        display: none;
+    }
 }
 
 .footer{
