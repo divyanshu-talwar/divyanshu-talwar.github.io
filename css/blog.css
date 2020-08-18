@@ -104,6 +104,10 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
         height: 100%;
         overflow: auto;
     }
+
+    .blog {
+        padding: 2% 4% 0;
+    }
 }
 
 .footer{

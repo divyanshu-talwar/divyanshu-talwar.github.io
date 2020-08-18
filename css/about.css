@@ -103,7 +103,7 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
 /* tablet width */
 @media screen and (max-width: 1100px) {
     .NAVBAR_HEADING {
-        font-size: 0rem !important;
+        width: 0;
     }    
     img {
         height: 25%;
@@ -119,23 +119,28 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
 /* phone width */
 @media screen and (max-width: 990px) {
     .NAVBAR_HEADING {
-        font-size: 0rem !important;
+        width: 0;
     }     
     /* about me section */
     .name_title{
         text-align: center;
     }
     img {
-        height: 42%;
-        width: 42%;
+        height: 49%;
+        width: 49%;
         float: none;
         display: block;
         margin: 0 auto;
    }
-    
     .news_data {
         height: 100%;
         overflow: auto;
+    }
+    .about_me {
+        padding: 2% 4% 0;
+    }
+    .news {
+        padding: 0.5% 4% 0.5%;
     }
 }
 

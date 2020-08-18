@@ -108,6 +108,13 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     .name_title{
         text-align: center;
     }
+    .publications {
+        padding: 2% 4% 0%;
+    }
+    button {
+        margin: 1% 0.5% 0.5% 0.5% !important;
+        padding: 0.15% 0.75% !important;
+    }
 }
 
 .footer{
@@ -116,10 +123,3 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
     font-family: 'Montserrat', sans-serif;
     font-size: 0.7rem;
 }
-
-/* 
-headings:
-font-family: 'Libre Baskerville', serif;
-body:
-font-family: 'Montserrat', sans-serif;
-*/
