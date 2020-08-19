@@ -104,6 +104,9 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
         padding: 0 2%;
         background-color: #f8f9fa;
     }
+    .name_title{
+        text-align: center;
+    }
     .blog {
         padding: 2% 4% 0;
     }
@@ -112,11 +115,8 @@ tr:nth-child(odd) {background-color: #f8f9fa;}
         overflow: auto;
     }
     .icons_tray {
-        padding: 0 2% 1%;
+        padding: 0 2%;
         text-align: center;
-    }
-    .footer{
-        display: none;
     }
 }
 
