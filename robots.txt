@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /assets/divyanshu_talwar_resume.pdf
+Disallow: /journal.html
 
 Sitemap: https://divyanshu-talwar.github.io/sitemap.xml
