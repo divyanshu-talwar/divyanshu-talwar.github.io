@@ -9,7 +9,7 @@
 }*/
 
 .navbar-brand {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.85rem !important;
 }
 
@@ -40,7 +40,8 @@ img {
 }
 
 .heading {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
     padding: 0 0 1.5%;
 }
 
@@ -48,32 +49,6 @@ img {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
 }
-
-/* News section */
-
-.news {
-    padding: 0% 25% 0.5%;
-}
-
-.news .heading {
-    font-family: 'Libre Baskerville', serif;
-    padding-bottom: 1%;
-}
-
-.news_data {
-    height: 110px;
-    overflow: auto;
-}
-
-table {
-    width: 100%;
-}
-
-td {
-    padding: 0.75% 3% 0.75%;
-}
-
-tr:nth-child(odd) {background-color: #f8f9fa;}
 
 /* Icons section */
 
